@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "gsap": "^3.9.1",
+    "less": "^4.1.2",
     "pinia": "^2.0.9",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
@@ -25,10 +26,12 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "less-loader": "7.x",
     "prettier": "^2.2.1",
+    "svg-sprite-loader": "^6.0.11",
     "typescript": "~4.1.5"
   }
 }
