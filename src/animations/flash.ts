@@ -1,6 +1,9 @@
 import gsap from 'gsap'
 
-export function flash(element: HTMLElement | null, duration = 0.18): void {
+export function flash(
+  element: HTMLElement | EventTarget | null,
+  duration = 0.18
+): void {
   if (!element) return
   const tl = gsap.timeline()
   tl.from(element, {
